@@ -11,3 +11,42 @@
     src: url(./fonts/SpaceMono-Regular.woff2) format('woff2');
   }
 }
+
+/* Custom CSS */
+
+.p_grid-area {
+  grid-area: 1 / 1;
+}
+
+.p_spin_slow {
+  animation-name: p_spin;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.p_spin_normal {
+  animation-name: p_spin;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.p_spin_fast {
+  animation-name: p_spin;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes p_spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
