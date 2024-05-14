@@ -5,65 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="flex flex-col gap-8 font-space-mono">
-  <nav>
-    <a href="#web-developer">Web Developer</a>
-    <a href="#work-experience">Work Experience</a>
-    <a href="#freelance">Freelance</a>
-    <a href="#side-projects">Side Projects</a>
+<body class="flex flex-col font-space-mono">
+
+  <nav class="flex justify-between items-center text-center gap-4 fixed sm:sticky bottom-0 sm:top-0 bg-black text-white p-4 z-50 w-full">
+    <a class="px-4 py-2 border-b border-b-transparent hover:border-b-white" href="#about-me">About Me</a>
+    <a class="px-4 py-2 border-b border-b-transparent hover:border-b-white" href="#industry-experience">Industry Experience</a>
+    <a class="px-4 py-2 border-b border-b-transparent hover:border-b-white" href="#freelance-experience">Freelance Experience</a>
+    <a class="px-4 py-2 border-b border-b-transparent hover:border-b-white" href="#side-projects">Side Projects</a>
   </nav>
-  <div class="flex gap-8">
-    <div class="content-center">
-      <p class="text-4xl">Hey! I'm <span class="text-white bg-black">Hussein</span>, welcome to my portfolio. It is a work in progress, check back in a day or two for the full experience!</p>
+
+  <div class="flex flex-col sm:flex-row gap-4 h-[calc(100vh-73px)] mx-4">
+    <div class="flex flex-col gap-4 justify-center sm:w-1/3">
+      <p class="text-2xl flex flex-col sm:flex-row gap-4 self-start">
+        <span>Hey! I'm</span>
+        <span class="flex self-start pr-1 bg-black/10 rounded-full relative bottom-2">
+          <span id="about-me" class="text-2xl flex self-start uppercase rounded-full bg-sky-500 text-white px-4 py-2 relative bottom-2 border-2 border-white">Hussein</span>
+        </span>
+      </p>
+      <p>Welcome to my portfolio. It is currently a work in progress, please check back in a day or two for the full experience!</p>
     </div>
-    <div class="grid grid-cols-1 grid-rows-1 place-items-center float-end">
-      <div class="p_grid-area relative top-8 right-8 w-[200px] h-[200px] sm:w-[600px] sm:h-[600px] bg-white border-2 border-black"></div>
-      <div class="p_grid-area relative top-16 right-16 w-[200px] h-[200px] sm:w-[600px] sm:h-[600px] bg-black"></div>
-      <div class="p_grid-area relative top-24 right-24 w-[200px] h-[200px] sm:w-[600px] sm:h-[600px] bg-rose-500/50"></div>
-      <img class="p_grid-area relative top-32 right-32 w-[200px] h-[200px] sm:w-[600px] sm:h-[600px] object-cover grayscale" src="./images/headshot.jpg" />
+    <div class="grid grid-cols-1 grid-rows-1 place-items-center sm:w-2/3">
+      <div class="rounded-2xl p_spin_slower p_grid-area w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-black/10"></div>
+      <div class="rounded-2xl p_spin_slow p_grid-area w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-white border border-sky-500"></div>
+      <div class="rounded-2xl p_spin_normal p_grid-area w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-sky-500/50"></div>
+      <div class="rounded-2xl p_spin_fast p_grid-area w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] bg-sky-500"></div>
+      <!-- <div class="rounded-2xl p_grid-area p-32 backdrop-blur-sm"> -->
+        <img class="p_grid-area rounded-2xl w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] object-cover grayscale" src="./images/headshot.jpg" />
+      <!-- </div> -->
     </div>
   </div>
-  <div class="flex flex-col gap-8">
-    <div id="web-developer" class="grid grid-cols-1 grid-rows-1 justify-items-start">
-      <div class="p_grid-area relative top-8 w-[400px] h-[50px] bg-black"></div>
-      <div class="p_grid-area relative top-16 left-4 w-[600px] h-[40px] bg-rose-500/50"></div>
-      <p class="p_grid-area relative top-12 left-8 text-white text-4xl uppercase">Web Developer</p>
+
+  <div class="flex flex-col gap-8 py-[73px]">
+    <div class="flex flex-col">
+      <div class="flex self-start pr-1 bg-black/10 rounded-r-full relative bottom-2">
+        <h1 id="about-me" class="text-2xl flex self-start uppercase rounded-r-full bg-sky-500 text-white px-4 py-2 relative bottom-2 border-2 border-white border-l-0">About Me</h1>
+      </div>
     </div>
 
-    <div id="work-experience" class="grid grid-cols-1 grid-rows-1 justify-items-end">
-      <div class="p_grid-area relative top-8 right-0 w-[400px] h-[50px] bg-black"></div>
-      <div class="p_grid-area relative top-16 right-4 w-[600px] h-[40px] bg-rose-500/50"></div>
-      <p class="p_grid-area relative top-12 right-8 text-white text-4xl uppercase">Work Experience</p>
+    <div class="flex flex-col">
+      <div class="flex self-end pl-1 bg-black/10 rounded-l-full relative bottom-2">
+        <h1 id="industry-experience" class="text-2xl flex self-end uppercase rounded-l-full bg-sky-500 text-white px-4 py-2 relative bottom-2 border-2 border-white border-r-0">Industry Experience</h1>
+      </div>
     </div>
 
-    <div id="freelance" class="grid grid-cols-1 grid-rows-1 justify-items-start">
-      <div class="p_grid-area relative top-8 w-[400px] h-[50px] bg-black"></div>
-      <div class="p_grid-area relative top-16 left-4 w-[600px] h-[40px] bg-rose-500/50"></div>
-      <p class="p_grid-area relative top-12 left-8 text-white text-4xl uppercase">Freelance</p>
-    </div>
-  
-    <div id="side-projects" class="grid grid-cols-1 grid-rows-1 justify-items-end">
-      <div class="p_grid-area relative top-8 right-0 w-[400px] h-[50px] bg-black"></div>
-      <div class="p_grid-area relative top-16 right-4 w-[600px] h-[40px] bg-rose-500/50"></div>
-      <p class="p_grid-area relative top-12 right-8 text-white text-4xl uppercase">Side Projects</p>
+    <div class="flex flex-col">
+      <div class="flex self-start pr-1 bg-black/10 rounded-r-full relative bottom-2">
+        <h1 id="freelance-experience" class="text-2xl flex self-start uppercase rounded-r-full bg-sky-500 text-white px-4 py-2 relative bottom-2 border-2 border-white border-l-0">Freelance Experience</h1>
+      </div>
     </div>
 
-    <!-- <div class="grid grid-cols-1 grid-rows-1 group bg-yellow-500">
-      <div class="p_spin_slow p_grid-area w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] bg-white border-2 border-black"></div>
-      <div class="p_spin_normal p_grid-area w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] bg-black"></div>
-      <div class="p_spin_fast p_grid-area w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] bg-rose-500/50"></div>
-      <img class="p_grid-area w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] object-cover grayscale" src="./images/headshot.jpg" />
+    <div class="flex flex-col">
+      <div class="flex self-end pl-1 bg-black/10 rounded-l-full relative bottom-2">
+        <h1 id="side-projects" class="text-2xl flex self-end uppercase rounded-l-full bg-sky-500 text-white px-4 py-2 relative bottom-2 border-2 border-white border-r-0">Side Projects</h1>
+      </div>
     </div>
-
-    <div class="grid grid-cols-1 grid-rows-1 group bg-red-500">
-      <div class="p_grid-area p_spin_slow w-[100px] h-[100px] bg-yellow-500"></div>
-      <div class="p_grid-area p_spin_normal w-[100px] h-[100px] bg-yellow-300"></div>
-      <div class="p_grid-area p_spin_fast w-[100px] h-[100px] bg-yellow-100"></div>
-    </div> -->
-
   </div>
-  <footer class="bg-black p-8 flex justify-center items-center">
-    <p class="text-white">Designed and developed by Hussein Fawaz</p>
+
+  <footer class="p-4 flex justify-center items-center pb-[73px] sm:pb-4 border-t border-black">
+    <p>Made by Hussein Fawaz 2024</p>
   </footer>
+  
 </body>
 </html>

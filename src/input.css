@@ -7,42 +7,58 @@
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
+    font-display: block;
     src: url(./fonts/SpaceMono-Regular.woff2) format('woff2');
   }
 }
 
 /* Custom CSS */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .p_grid-area {
   grid-area: 1 / 1;
 }
 
-.p_spin_slow {
-  animation-name: p_spin;
-  animation-delay: 3s;
-  animation-duration: 10s;
+.p_spin_fast {
+  animation-name: spin;
+  animation-duration: 60s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
 .p_spin_normal {
-  animation-name: p_spin;
+  animation-name: spin;
   animation-delay: 2s;
-  animation-duration: 10s;
+  animation-duration: 60s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
-.p_spin_fast {
-  animation-name: p_spin;
-  animation-delay: 1s;
-  animation-duration: 10s;
+
+.p_spin_slow {
+  animation-name: spin;
+  animation-delay: 4s;
+  animation-duration: 60s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
-@keyframes p_spin {
+.p_spin_slower {
+  animation-name: spin;
+  animation-delay: 6s;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
