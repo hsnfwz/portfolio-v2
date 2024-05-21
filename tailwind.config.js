@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'space-mono': 'Space Mono'
+      'montserrat-regular': 'Montserrat Regular',
+      'montserrat-bold': 'Montserrat Bold',
     }
   },
   plugins: [],
