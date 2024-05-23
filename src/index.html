@@ -9,120 +9,217 @@
 </head>
 <body class="font-montserrat-regular">
   <div class="w-full h-screen flex justify-center items-center relative">
-    <div class="mx-[60px]">
+    <div class="mx-[52px]">
       <img src="./images/signature.png" />
     </div>
-    <a class="p_vertical-text hover:bg-black hover:text-white hover:duration-200 text-sm uppercase p-4 fixed top-0 left-0 rounded-br-lg" href="#about">About</a>
-    <a class="p_vertical-text hover:bg-black hover:text-white hover:duration-200 text-sm uppercase p-4 fixed top-0 right-0 rounded-bl-lg" href="#experience">Experience</a>
-    <a class="p_vertical-text hover:bg-black hover:text-white hover:duration-200 text-sm uppercase p-4 fixed bottom-0 left-0 rounded-tr-lg" href="#projects">Projects</a>
-    <a class="p_vertical-text hover:bg-black hover:text-white hover:duration-200 text-sm uppercase p-4 fixed bottom-0 right-0 rounded-tl-lg" href="#contact">Contact</a>
-    <!-- <button id="dark-button" onclick="toggleDarkMode()">Dark</button> -->
+    <a class="z-50 p_vertical-text border-r border-b border-transparent hover:border-black hover:duration-200 text-sm uppercase p-4 fixed top-0 left-0 rounded-br-lg" href="#about">About</a>
+    <a class="z-50 p_vertical-text border-l border-b border-transparent hover:border-black hover:duration-200 text-sm uppercase p-4 fixed top-0 right-0 rounded-bl-lg" href="#experience">Experience</a>
+    <a class="z-50 p_vertical-text border-r border-t border-transparent hover:border-black hover:duration-200 text-sm uppercase p-4 fixed bottom-0 left-0 rounded-tr-lg" href="#projects">Projects</a>
+    <a class="z-50 p_vertical-text border-l border-t border-transparent hover:border-black hover:duration-200 text-sm uppercase p-4 fixed bottom-0 right-0 rounded-tl-lg" href="#contact">Contact</a>
   </div>
-  <div class="mx-[60px]">
-    <div id="about" class="w-full min-h-screen flex flex-col gap-8 items-center py-8 relative">
-      <div class="flex items-center gap-4 w-full sticky top-0 bg-white">
+  <div class="mx-[52px]">
+    <div id="about" class="w-full min-h-screen flex flex-col relative">
+      <div class="flex items-center gap-4 w-full sticky top-0 bg-white py-2 my-6">
         <div class="w-full h-[1px] bg-black rounded-full"></div>
         <h1 class="font-montserrat-bold uppercase text-2xl z-50">About</h1>
         <div class="w-full h-[1px] bg-black rounded-full"></div>
       </div>
-      <img src="./images/headshot.png" class="w-[400px] rounded-full bg-neutral-200 -z-10" />
-      <div class="flex flex-col gap-4">
-        <h2 class="text-xl text-center">Hey! My name is Hussein Fawaz</h2>
-        <p class="text-center">I am a full-stack web developer with 5 years of industry, freelancing, and personal learning experience seeking a full-time position in the tech industry</p>
+      <div class="flex flex-col gap-8 items-center">
+        <img src="./images/headshot.png" class="w-[400px] rounded-full bg-neutral-100" />
+
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-montserrat-bold text-center">Hey! My name is <span class="text-emerald-500">Hussein Fawaz</span></h2>
+          <p class="text-center max-w-[600px]">I am a full-stack web developer with 5 years of industry, freelancing, and personal learning experience seeking a full-time position in the tech industry</p>
+          <a class="self-center border rounded-lg border-black px-4 py-2" href="./files/Resume.pdf" target="_blank">Resume <?xml version="1.0" encoding="UTF-8"?><svg class="inline" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg>
+          </a>
+        </div>
       </div>
     </div>
-    <div id="experience" class="w-full min-h-screen flex flex-col gap-8 items-center py-8 relative">
-      <div class="flex items-center gap-4 w-full sticky top-0 bg-white">
+    <div id="experience" class="w-full min-h-screen flex flex-col relative">
+      <div class="flex items-center gap-4 w-full sticky top-0 bg-white py-2 my-6">
         <div class="w-full h-[1px] bg-black rounded-full"></div>
         <h1 class="font-montserrat-bold uppercase text-2xl z-50">Experience</h1>
         <div class="w-full h-[1px] bg-black rounded-full"></div>
       </div>
       <div class="flex flex-col gap-8">
-        <img src="./images/switchboard-preview.png" class="w-[800px] rounded-lg drop-shadow -z-10" />
-        <div class="flex flex-col items-center justify-center gap-4">
-          <h2 class="text-xl text-center">Switchboard</h2>
-          <p class="text-center">Web Software Developer</p>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://www.onswitchboard.com/" target="_blank">Website</a>
+        <div class="flex flex-col lg:flex-row gap-4 w-full">
+          <div class="flex flex-col gap-4 lg:w-2/5 bg-neutral-100 rounded-lg p-4 items-center justify-center text-center">
+            <h2 class="text-2xl font-montserrat-bold">Switchboard</h2>
+            <p>Web Software Developer</p>
+            <p>Built and improved Switchboard's SaaS to help clients in the commercial transportation industry manage their fleets</p>
+            <div class="flex flex-wrap justify-center gap-2 text-emerald-500 text-sm">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>SASS</p>
+              <p>MDBReact</p>
+              <p>PrimeReact</p>
+              <p>JavaScript</p>
+              <p>React</p>
+              <p>Node</p>
+              <p>Express</p>
+              <p>MJML</p>
+              <p>Parse Platform</p>
+            </div>
+            <div class="flex gap-4">
+              <a class="self-start" href="https://www.onswitchboard.com/" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-3/5">
+            <img src="./images/switchboard-preview.png" class="w-full rounded-lg object-cover h-full" />
+          </div>
         </div>
-      </div>
-      <div class="flex flex-col gap-8">
-        <img src="./images/marks-barbershop-preview.png" class="w-[800px] rounded-lg drop-shadow -z-10" />
-        <div class="flex flex-col items-center justify-center gap-4">
-          <h2 class="text-2xl text-center">Mark's Barbershop</h2>
-          <p class="text-center">Freelance Web Developer</p>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://www.marksbarbershop.ca" target="_blank">Website</a>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://github.com/hsnfwz/marks-barbershop" target="_blank">Repository</a>
+        <div class="flex flex-col lg:flex-row gap-4 w-full">
+          <div class="flex flex-col gap-4 lg:w-2/5 bg-neutral-100 rounded-lg p-4 items-center justify-center text-center">
+            <h2 class="text-2xl font-montserrat-bold">Mark's Barbershop</h2>
+            <p>Freelance Web Developer</p>
+            <p>Landing page built for Mark's Barbershop to communicate hair styling services, showcase gallery of various haircuts, and provide a booking option for customers</p>
+            <div class="flex flex-wrap justify-center gap-2 text-emerald-500 text-sm">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Tailwind CSS</p>
+              <p>Vercel</p>
+            </div>
+            <div class="flex gap-4">
+              <a class="self-start" href="https://www.marksbarbershop.ca" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg>
+              </a>
+              <a class="self-start" href="https://github.com/hsnfwz/marks-barbershop" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-3/5">
+            <img src="./images/marks-barbershop-preview.png" class="w-full rounded-lg object-cover h-full" />
+          </div>
         </div>
-      </div>
-      <div class="flex flex-col gap-8">
-        <img src="./images/noureddine-feathers-preview.png" class="w-[800px] rounded-lg drop-shadow -z-10" />
-        <div class="flex flex-col items-center justify-center gap-4">
-          <h2 class="text-2xl text-center">Noureddine Feathers</h2>
-          <p class="text-center">Freelance Web Developer</p>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://www.noureddinefeathers.com" target="_blank">Website</a>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://github.com/hsnfwz/noureddine-feathers" target="_blank">Repository</a>
+        <div class="flex flex-col lg:flex-row gap-4 w-full">
+          <div class="flex flex-col gap-4 lg:w-2/5 bg-neutral-100 rounded-lg p-4 items-center justify-center text-center">
+            <h2 class="text-2xl font-montserrat-bold">Noureddine Feathers</h2>
+            <p>Freelance Web Developer</p>
+            <p>E-commerce website built for Noureddine Feathers to promote and sell ostrich feathers, feather dusters, lambswool dusters, and eggshells</p>
+            <div class="flex flex-wrap justify-center gap-2 text-emerald-500 text-sm">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Tailwind CSS</p>
+              <p>JavaScript</p>
+              <p>TypeScript</p>
+              <p>Svelte</p>
+              <p>Sveltekit</p>
+              <p>Supabase</p>
+              <p>Vercel</p>
+              <p>Stripe</p>
+            </div>
+            <div class="flex gap-4">
+              <a class="self-start" href="https://www.noureddinefeathers.com" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg>
+              </a>
+              <a class="self-start" href="https://github.com/hsnfwz/noureddine-feathers" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-3/5">
+            <img src="./images/noureddine-feathers-preview.png" class="w-full rounded-lg object-cover h-full" />
+          </div>
         </div>
       </div>
     </div>
-    <div id="projects" class="w-full min-h-screen flex flex-col gap-8 items-center py-8 relative">
-      <div class="flex items-center gap-4 w-full sticky top-0 bg-white">
+    <div id="projects" class="w-full min-h-screen flex flex-col relative">
+      <div class="flex items-center gap-4 w-full sticky top-0 bg-white py-2 my-6">
         <div class="w-full h-[1px] bg-black rounded-full"></div>
         <h1 class="font-montserrat-bold uppercase text-2xl z-50">Projects</h1>
         <div class="w-full h-[1px] bg-black rounded-full"></div>
       </div>
       <div class="flex flex-col gap-8">
-        <img src="./images/piggy-bank-preview.png" class="w-[800px] rounded-lg drop-shadow -z-10" />
-        <div class="flex flex-col items-center justify-center gap-4">
-          <h2 class="text-2xl text-center">Piggy Bank</h2>
-          <p class="text-center">Project #1</p>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://piggy-bank-client.onrender.com/" target="_blank">Website</a>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://github.com/hsnfwz/piggy-bank" target="_blank">Repository</a>
+        <div class="flex flex-col lg:flex-row gap-4 w-full">
+          <div class="flex flex-col gap-4 lg:w-2/5 bg-neutral-100 rounded-lg p-4 items-center justify-center text-center">
+            <h2 class="text-2xl font-montserrat-bold">Piggy Bank</h2>
+            <p>Project #1</p>
+            <p>Budget application to help users track and calculate their income and expenses and collaborate with community members and assistants to save money</p>
+            <div class="flex flex-wrap justify-center gap-2 text-emerald-500 text-sm">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Bootstrap</p>
+              <p>JavaScript</p>
+              <p>React</p>
+              <p>Node</p>
+              <p>Express</p>
+              <p>PostgreSQL</p>
+              <p>Render</p>
+            </div>
+            <div class="flex gap-4">
+              <a class="self-start" href="https://piggy-bank-client.onrender.com/" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg>
+              </a>
+              <a class="self-start" href="https://github.com/hsnfwz/piggy-bank" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-3/5">
+            <img src="./images/piggy-bank-preview.png" class="w-full rounded-lg object-cover h-full" />
+          </div>
         </div>
-      </div>
-      <div class="flex flex-col gap-8">
-        <img src="./images/pod-preview.png" class="w-[800px] rounded-lg drop-shadow -z-10" />
-        <div class="flex flex-col items-center justify-center gap-4">
-          <h2 class="text-2xl text-center">Pod</h2>
-          <p class="text-center">Project #2</p>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://pod-v1.vercel.app" target="_blank">Website</a>
-          <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://github.com/hsnfwz/pod" target="_blank">Repository</a>
+        <div class="flex flex-col lg:flex-row gap-4 w-full">
+          <div class="flex flex-col gap-4 lg:w-2/5 bg-neutral-100 rounded-lg p-4 items-center justify-center text-center">
+            <h2 class="text-2xl font-montserrat-bold">Pod</h2>
+            <p>Project #2</p>
+            <p>Social media application to explore, discuss, and share anything happening around the world with a gamified system</p>
+            <div class="flex flex-wrap justify-center gap-2 text-emerald-500 text-sm">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Tailwind CSS</p>
+              <p>JavaScript</p>
+              <p>TypeScript</p>
+              <p>Svelte</p>
+              <p>Sveltekit</p>
+              <p>Supabase</p>
+              <p>Vercel</p>
+            </div>
+            <div class="flex gap-4">
+              <a class="self-start" href="https://pod-v1.vercel.app" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg>
+              </a>
+              <a class="self-start" href="https://github.com/hsnfwz/pod" target="_blank">
+                <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-3/5">
+            <img src="./images/pod-preview.png" class="w-full rounded-lg object-cover h-full" />
+          </div>
         </div>
       </div>
     </div>
-    <div id="contact" class="w-full min-h-screen flex flex-col gap-8 items-center py-8 relative">
-      <div class="flex items-center gap-4 w-full sticky top-0 bg-white">
+    <div id="contact" class="w-full min-h-screen flex flex-col relative">
+      <div class="flex items-center gap-4 w-full sticky top-0 bg-white py-2 my-6">
         <div class="w-full h-[1px] bg-black rounded-full"></div>
         <h1 class="font-montserrat-bold uppercase text-2xl z-50">Contact</h1>
         <div class="w-full h-[1px] bg-black rounded-full"></div>
       </div>
       <div class="flex flex-col gap-4 items-center justify-center">
-        <h2 class="text-xl text-center">hsnfwz99@gmail.com</h2>
-        <h2 class="text-xl text-center">778.960.8712</h2>
-        <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://www.linkedin.com/in/hsnfwz/" target="_blank">LinkedIn</a>
-        <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="https://github.com/hsnfwz" target="_blank">GitHub</a>
-        <a class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200" href="./files/Resume.pdf" target="_blank">Resume</a>
+        <h2 class="text-center">hsnfwz99@gmail.com</h2>
+        <h2 class="text-center">778.960.8712</h2>
+        <div class="flex gap-4">
+          <a class="" href="https://www.linkedin.com/in/hsnfwz/" target="_blank">
+            <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+          <a class="" href="https://github.com/hsnfwz" target="_blank">
+            <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14.3333 19V17.137C14.3583 16.8275 14.3154 16.5163 14.2073 16.2242C14.0993 15.9321 13.9286 15.6657 13.7067 15.4428C15.8 15.2156 18 14.4431 18 10.8989C17.9998 9.99256 17.6418 9.12101 17 8.46461C17.3039 7.67171 17.2824 6.79528 16.94 6.01739C16.94 6.01739 16.1533 5.7902 14.3333 6.97811C12.8053 6.57488 11.1947 6.57488 9.66666 6.97811C7.84666 5.7902 7.05999 6.01739 7.05999 6.01739C6.71757 6.79528 6.69609 7.67171 6.99999 8.46461C6.35341 9.12588 5.99501 10.0053 5.99999 10.9183C5.99999 14.4366 8.19999 15.2091 10.2933 15.4622C10.074 15.6829 9.90483 15.9461 9.79686 16.2347C9.68889 16.5232 9.64453 16.8306 9.66666 17.137V19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.66667 17.7018C7.66667 18.3335 6 17.7018 5 15.7544" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+        <a class="self-center border rounded-lg border-black px-4 py-2" href="./files/Resume.pdf" target="_blank">Resume <?xml version="1.0" encoding="UTF-8"?><svg class="inline" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
+        <img src="./images/background.jpg" class="w-[400px] rounded-lg" />
       </div>
-      <img src="./images/background.jpg" class="w-[800px] rounded-lg drop-shadow -z-10" />
     </div>
-    <footer class="flex flex-col gap-4 items-center justify-center py-8">
+    <footer class="flex flex-col gap-4 items-center justify-center py-2 my-6">
       <p class="text-sm text-center">Designed and developed by Hussein Fawaz</p>
-      <a href="https://github.com/hsnfwz/portfolio" target="_blank" class="text-center px-4 py-2 bg-neutral-200 rounded-full hover:bg-black hover:text-white hover:duration-200">Repository</a>
+      <a href="https://github.com/hsnfwz/portfolio" target="_blank">
+        <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
     </footer>
   </div>
 </body>
-<!-- <script>
-  let isDarkMode = false;
-
-  function toggleDarkMode() {
-    isDarkMode = !isDarkMode;
-
-    const darkButton = document.getElementById('dark-button');
-
-    if (isDarkMode) {
-      darkButton.innerHTML = 'Light'
-    } else {
-      darkButton.innerHTML = 'Dark';
-    }
-  }
-</script> -->
 </html>
