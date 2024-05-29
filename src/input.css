@@ -14,19 +14,43 @@
   @font-face {
     font-family: 'Montserrat Bold';
     font-display: block;
-    src: url(./fonts/Montserrat-Bold.woff2) format('woff2');
+    src: url(./fonts/Montserrat-Bold-Static.woff2) format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat Italic';
+    font-display: block;
+    src: url(./fonts/Montserrat-Italic.woff2) format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat Bold Italic';
+    font-display: block;
+    src: url(./fonts/Montserrat-BoldItalic.woff2) format('woff2');
   }
 }
 
 /* Custom CSS */
 
-/* svg {
-  width: 100%;
-  height: 100%;
-} */
+svg {
+  width: 0%;
+  height: 0%;
+}
 
 html {
   scroll-behavior: smooth;
+}
+
+.p_text-stroke-big {
+  -webkit-text-stroke: 4px #8b5cf6;
+}
+
+.p_text-stroke-small {
+  -webkit-text-stroke: 2px #8b5cf6;
 }
 
 .p_vertical-text {

@@ -6,6 +6,8 @@ module.exports = {
     fontFamily: {
       'montserrat-regular': 'Montserrat Regular',
       'montserrat-bold': 'Montserrat Bold',
+      'montserrat-italic': 'Montserrat Italic',
+      'montserrat-bold-italic': 'Montserrat Bold Italic',
     }
   },
   plugins: [],
