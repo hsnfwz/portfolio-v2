@@ -8,15 +8,14 @@
     <link href="./output.css" rel="stylesheet">
   </head>
   <body class="font-montserrat-regular flex flex-col relative w-full bg-black text-white">
-    <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-white blur-3xl -z-10 rounded-full animate-[pulse_3s_0s_infinite]"></div>
-    <div class="fixed top-24 left-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_0s_infinite]"></div>
-    <div class="fixed top-24 right-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_2s_infinite]"></div>
-    <div class="fixed bottom-24 left-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_2s_infinite]"></div>
-    <div class="fixed bottom-24 right-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_0s_infinite]"></div>
-    <div class="fixed top-32 left-32 w-4 h-4 bg-white blur -z-10 rounded-full animate-[pulse_3s_1s_infinite]"></div>
-    <div class="fixed bottom-32 right-32 w-4 h-4 bg-white blur -z-10 rounded-full animate-[pulse_3s_1s_infinite]"></div>
+    <div class="fixed top-12 left-12 sm:top-24 sm:left-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_0s_infinite]"></div>
+    <div class="fixed top-12 right-12 sm:top-24 sm:right-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_2s_infinite]"></div>
+    <div class="fixed bottom-12 left-12 sm:bottom-24 sm:left-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_2s_infinite]"></div>
+    <div class="fixed bottom-12 right-12 sm:bottom-24 sm:right-24 w-2 h-2 bg-white blur -z-10 rounded-full animate-[pulse_3s_0s_infinite]"></div>
+    <div class="fixed top-20 left-20 sm:top-32 sm:left-32 w-4 h-4 bg-white blur -z-10 rounded-full animate-[pulse_3s_1s_infinite]"></div>
+    <div class="fixed bottom-20 right-20 sm:bottom-32 sm:right-32 w-4 h-4 bg-white blur -z-10 rounded-full animate-[pulse_3s_1s_infinite]"></div>
 
-    <nav class="z-50 flex justify-center gap-4 fixed bottom-0 sm:sticky sm:top-0 bg-neutral-800/50 border-t-2 sm:border-t-0 sm:border-b-2 border-neutral-800/50 backdrop-blur-2xl w-full">
+    <nav class="z-50 flex justify-center fixed bottom-0 sm:sticky sm:top-0 bg-neutral-800/50 border-t-2 sm:border-t-0 sm:border-b-2 border-neutral-800/50 backdrop-blur-2xl w-full">
       <a class="p-4 text-xs hover:bg-neutral-800" href="#">HF</a>
       <a class="p-4 text-xs hover:bg-neutral-800" href="#work">Work</a>
       <a class="p-4 text-xs hover:bg-neutral-800" href="#projects">Projects</a>
@@ -33,30 +32,32 @@
       </section>
 
       <div id="work"></div>
-
+      
       <section class="flex flex-col gap-8">
         <h1 class="text-2xl font-montserrat-bold">Work</h1>
-        <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+        <div class="flex flex-col gap-4">
           <img src="./images/switchboard-preview.png" alt="switchboard" class="w-full rounded-lg" />
-          <h2 class="text-lg">Switchboard</h2>
-          <p>Built and improved Switchboard's software-as-a-service (SaaS) to help clients in the commercial transportation industry across North America manage their fleets while staying compliant with government regulations</p>
-          <div class="flex flex-wrap gap-2">
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">SASS</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">MDBReact</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">PrimeReact</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">JavaScript</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">React</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Node</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Express</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">MJML</p>
-            <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Parse Platform</p>
+          <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+            <h2 class="text-lg">Switchboard</h2>
+            <p>Built and improved Switchboard's software-as-a-service (SaaS) to help clients in the commercial transportation industry across North America manage their fleets while staying compliant with government regulations</p>
+            <div class="flex flex-wrap gap-2">
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">SASS</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">MDBReact</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">PrimeReact</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">JavaScript</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">React</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Node</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Express</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">MJML</p>
+              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Parse Platform</p>
+            </div>
+            <a class="group self-start hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.onswitchboard.com/" target="_blank">
+              Website
+              <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+            </a>
           </div>
-          <a class="group self-start hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.onswitchboard.com/" target="_blank">
-            Website
-            <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-          </a>
         </div>
       </section>
 
@@ -64,191 +65,207 @@
 
       <section class="flex flex-col gap-8">
         <h1 class="text-2xl font-montserrat-bold">Projects</h1>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-8">
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-8 auto-rows-max">
+          <div class="flex flex-col gap-4">
             <img src="./images/noureddine-feathers-preview.png" alt="noureddine-feathers" class="w-full rounded-lg" />
-            <h2 class="text-lg">Noureddine Feathers</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">JavaScript</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">TypeScript</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Svelte</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Sveltekit</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Supabase</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Vercel</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Stripe API</p>
-            </div>
-            <div class="flex gap-2 mt-auto">
-              <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.noureddinefeathers.com" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/noureddine-feathers" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">Noureddine Feathers</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">JavaScript</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">TypeScript</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Svelte</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Sveltekit</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Supabase</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Vercel</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Stripe API</p>
+              </div>
+              <div class="flex gap-2 mt-auto">
+                <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.noureddinefeathers.com" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/noureddine-feathers" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/marks-barbershop-preview.png" alt="marks-barbershop" class="w-full rounded-lg" />
-            <h2 class="text-lg">Mark's Barbershop</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Vercel</p>
-            </div>
-            <div class="flex gap-2 mt-auto">
-              <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.marksbarbershop.ca" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/marks-barbershop" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">Mark's Barbershop</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Vercel</p>
+              </div>
+              <div class="flex gap-2 mt-auto">
+                <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.marksbarbershop.ca" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/marks-barbershop" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/be-preview.png" alt="be" class="w-full rounded-lg" />
-            <h2 class="text-lg">Bé by Benjam Papp</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Vercel</p>
-            </div>
-            <div class="flex gap-2">
-              <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://bebybenjampapp.vercel.app/" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/be" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">Bé by Benjam Papp</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-sky-500 text-xs">Vercel</p>
+              </div>
+              <div class="flex gap-2">
+                <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://bebybenjampapp.vercel.app/" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-sky-500 border-2 border-sky-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/be" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-sky-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/portfolio-preview.png" alt="portfolio" class="w-full rounded-lg" />
-            <h2 class="text-lg">Portfolio</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
-            </div>
-            <div class="flex gap-2">
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.husseinfawaz.ca/" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/portfolio-v2" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 w-4 h-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">Portfolio</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
+              </div>
+              <div class="flex gap-2">
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://www.husseinfawaz.ca/" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/portfolio-v2" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 w-4 h-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/ensemble-cinemas-preview.png" alt="ensemble-cinemas" class="w-full rounded-lg" />
-            <h2 class="text-lg">Ensemble Cinemas</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">TypeScript</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">React</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Next</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">OMDb API</p>
-            </div>
-            <div class="flex gap-2">
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://ensemble-cinemas.vercel.app/" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/ensemble-cinemas" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">Ensemble Cinemas</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">TypeScript</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">React</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Next</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">OMDb API</p>
+              </div>
+              <div class="flex gap-2">
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://ensemble-cinemas.vercel.app/" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/ensemble-cinemas" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/celly-stats-preview.png" alt="cellystats" class="w-full rounded-lg" />
-            <h2 class="text-lg">CellyStats</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">React</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Next</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tremor</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">NHL API</p>
-            </div>
-            <div class="flex gap-2">
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://cellystats.vercel.app/" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/celly-stats-new" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">CellyStats</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">React</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Next</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tremor</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">NHL API</p>
+              </div>
+              <div class="flex gap-2">
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://cellystats.vercel.app/" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/celly-stats-new" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/pod-preview.png" alt="pod" class="w-full rounded-lg" />
-            <h2 class="text-lg">Pod</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">TypeScript</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Svelte</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Sveltekit</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Supabase</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
-            </div>
-            <div class="flex gap-2">
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://pod-v1.vercel.app" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/pod" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">Pod</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Tailwind CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">TypeScript</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Svelte</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Sveltekit</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Supabase</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Vercel</p>
+              </div>
+              <div class="flex gap-2">
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://pod-v1.vercel.app" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/pod" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="flex flex-col gap-8 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50">
+          <div class="flex flex-col gap-4">
             <img src="./images/piggysave-preview.png" alt="piggysave" class="w-full rounded-lg" />
-            <h2 class="text-lg">PiggySave</h2>
-            <div class="flex flex-wrap gap-2">
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Bootstrap</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">React</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Node</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Express</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">PostgreSQL</p>
-              <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Render</p>
-            </div>
-            <div class="flex gap-2">
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://piggysave.onrender.com/" target="_blank">
-                Website
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
-              </a>
-              <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/piggysave" target="_blank">
-                Repo
-                <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+            <div class="flex flex-col gap-4 bg-neutral-800/50 backdrop-blur-2xl p-4 rounded-lg border-2 border-neutral-800/50 h-full">
+              <h2 class="text-lg">PiggySave</h2>
+              <div class="flex flex-wrap gap-2">
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">HTML</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">CSS</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Bootstrap</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">JavaScript</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">React</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Node</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Express</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">PostgreSQL</p>
+                <p class="px-4 py-2 rounded-full bg-emerald-500 text-xs">Render</p>
+              </div>
+              <div class="flex gap-2">
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://piggysave.onrender.com/" target="_blank">
+                  Website
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L15 3M21 3L12 12M21 3V9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </a>
+                <a class="group hover:bg-emerald-500 border-2 border-emerald-500 px-4 py-2 flex gap-2 rounded-lg text-xs" href="https://github.com/hsnfwz/piggysave" target="_blank">
+                  Repo
+                  <?xml version="1.0" encoding="UTF-8"?><svg class="group-hover:stroke-white stroke-emerald-500 h-4 w-4" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
